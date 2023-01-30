@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/cwh/cwh_github/studyLidar/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/cwh/cwh_github/studyLidar/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/cwh/cwh_github/studyLidar/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/cwh/cwh_github/studyLidar/src:$ROS_PACKAGE_PATH"

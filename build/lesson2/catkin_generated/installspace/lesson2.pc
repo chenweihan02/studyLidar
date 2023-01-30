@@ -1,0 +1,8 @@
+prefix=/home/cwh/cwh_github/studyLidar/install
+
+Name: lesson2
+Description: Description of lesson2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

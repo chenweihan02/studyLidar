@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/cwh/cwh_github/studyLidar/build/gtest/cmake_install.cmake")
   include("/home/cwh/cwh_github/studyLidar/build/lesson1/cmake_install.cmake")
+  include("/home/cwh/cwh_github/studyLidar/build/lesson2/cmake_install.cmake")
 
 endif()
 

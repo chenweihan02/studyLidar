@@ -1,2 +1,2 @@
-lesson1
+lesson1:lesson2
 -DCATKIN_DEVEL_PREFIX=/home/cwh/cwh_github/studyLidar/devel -DCMAKE_INSTALL_PREFIX=/home/cwh/cwh_github/studyLidar/install -G Unix Makefiles
