@@ -922,6 +922,19 @@ bond_generate_messages_nodejs/fast:
 .PHONY : bond_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named lesson2_scan_match_icp_node
+
+# Build rule for target.
+lesson2_scan_match_icp_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson2_scan_match_icp_node
+.PHONY : lesson2_scan_match_icp_node
+
+# fast build rule for target.
+lesson2_scan_match_icp_node/fast:
+	$(MAKE) -f lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/build.make lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/build
+.PHONY : lesson2_scan_match_icp_node/fast
+
+#=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_eus
 
 # Build rule for target.
@@ -1337,6 +1350,32 @@ tf_generate_messages_lisp/fast:
 	$(MAKE) -f lesson2/CMakeFiles/tf_generate_messages_lisp.dir/build.make lesson2/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
+#=============================================================================
+# Target rules for targets named lesson3_plicp_odometry_node
+
+# Build rule for target.
+lesson3_plicp_odometry_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson3_plicp_odometry_node
+.PHONY : lesson3_plicp_odometry_node
+
+# fast build rule for target.
+lesson3_plicp_odometry_node/fast:
+	$(MAKE) -f lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/build.make lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/build
+.PHONY : lesson3_plicp_odometry_node/fast
+
+#=============================================================================
+# Target rules for targets named lesson3_scan_match_plicp_node
+
+# Build rule for target.
+lesson3_scan_match_plicp_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson3_scan_match_plicp_node
+.PHONY : lesson3_scan_match_plicp_node
+
+# fast build rule for target.
+lesson3_scan_match_plicp_node/fast:
+	$(MAKE) -f lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/build.make lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/build
+.PHONY : lesson3_scan_match_plicp_node/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1408,6 +1447,7 @@ help:
 	@echo "... bond_generate_messages_eus"
 	@echo "... nodelet_generate_messages_py"
 	@echo "... bond_generate_messages_nodejs"
+	@echo "... lesson2_scan_match_icp_node"
 	@echo "... dynamic_reconfigure_generate_messages_eus"
 	@echo "... nodelet_generate_messages_eus"
 	@echo "... pcl_msgs_generate_messages_eus"
@@ -1440,6 +1480,8 @@ help:
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... tf_generate_messages_lisp"
+	@echo "... lesson3_plicp_odometry_node"
+	@echo "... lesson3_scan_match_plicp_node"
 .PHONY : help
 
 

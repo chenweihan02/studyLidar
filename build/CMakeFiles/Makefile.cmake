@@ -17,11 +17,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "lesson1/catkin_generated/package.cmake"
   "lesson2/catkin_generated/ordered_paths.cmake"
   "lesson2/catkin_generated/package.cmake"
+  "lesson3/catkin_generated/ordered_paths.cmake"
+  "lesson3/catkin_generated/package.cmake"
   "/home/cwh/cwh_github/studyLidar/src/CMakeLists.txt"
   "/home/cwh/cwh_github/studyLidar/src/lesson1/CMakeLists.txt"
   "/home/cwh/cwh_github/studyLidar/src/lesson1/package.xml"
   "/home/cwh/cwh_github/studyLidar/src/lesson2/CMakeLists.txt"
   "/home/cwh/cwh_github/studyLidar/src/lesson2/package.xml"
+  "/home/cwh/cwh_github/studyLidar/src/lesson3/CMakeLists.txt"
+  "/home/cwh/cwh_github/studyLidar/src/lesson3/package.xml"
   "/opt/ros/melodic/share/actionlib/cmake/actionlib-msg-extras.cmake"
   "/opt/ros/melodic/share/actionlib/cmake/actionlibConfig-version.cmake"
   "/opt/ros/melodic/share/actionlib/cmake/actionlibConfig.cmake"
@@ -192,6 +196,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/melodic/share/tf2/cmake/tf2Config.cmake"
   "/opt/ros/melodic/share/tf2_eigen/cmake/tf2_eigenConfig-version.cmake"
   "/opt/ros/melodic/share/tf2_eigen/cmake/tf2_eigenConfig.cmake"
+  "/opt/ros/melodic/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig-version.cmake"
+  "/opt/ros/melodic/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig.cmake"
   "/opt/ros/melodic/share/tf2_msgs/cmake/tf2_msgs-msg-extras.cmake"
   "/opt/ros/melodic/share/tf2_msgs/cmake/tf2_msgsConfig-version.cmake"
   "/opt/ros/melodic/share/tf2_msgs/cmake/tf2_msgsConfig.cmake"
@@ -476,6 +482,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/googlemock/gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lesson1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lesson2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lesson3/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -538,6 +545,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "lesson2/CMakeFiles/bond_generate_messages_eus.dir/DependInfo.cmake"
   "lesson2/CMakeFiles/nodelet_generate_messages_py.dir/DependInfo.cmake"
   "lesson2/CMakeFiles/bond_generate_messages_nodejs.dir/DependInfo.cmake"
+  "lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/DependInfo.cmake"
   "lesson2/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/DependInfo.cmake"
   "lesson2/CMakeFiles/nodelet_generate_messages_eus.dir/DependInfo.cmake"
   "lesson2/CMakeFiles/pcl_msgs_generate_messages_eus.dir/DependInfo.cmake"
@@ -570,4 +578,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "lesson2/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake"
   "lesson2/CMakeFiles/topic_tools_generate_messages_py.dir/DependInfo.cmake"
   "lesson2/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake"
+  "lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/DependInfo.cmake"
+  "lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/DependInfo.cmake"
   )

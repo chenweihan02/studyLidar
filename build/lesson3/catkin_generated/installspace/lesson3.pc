@@ -1,0 +1,8 @@
+prefix=/home/cwh/cwh_github/studyLidar/install
+
+Name: lesson3
+Description: Description of lesson3
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -llesson3
+Requires: roscpp sensor_msgs geometry_msgs tf2 tf2_geometry_msgs tf2_ros

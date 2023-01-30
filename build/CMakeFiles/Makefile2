@@ -1376,6 +1376,7 @@ clean: lesson1/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 # Convenience name for "all" pass in the directory.
 lesson2/all: lesson2/CMakeFiles/lesson2_scan_to_pointcloud2_converter_node.dir/all
+lesson2/all: lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all
 
 .PHONY : lesson2/all
 
@@ -1402,6 +1403,7 @@ lesson2/clean: lesson2/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.d
 lesson2/clean: lesson2/CMakeFiles/bond_generate_messages_eus.dir/clean
 lesson2/clean: lesson2/CMakeFiles/nodelet_generate_messages_py.dir/clean
 lesson2/clean: lesson2/CMakeFiles/bond_generate_messages_nodejs.dir/clean
+lesson2/clean: lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/clean
 lesson2/clean: lesson2/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
 lesson2/clean: lesson2/CMakeFiles/nodelet_generate_messages_eus.dir/clean
 lesson2/clean: lesson2/CMakeFiles/pcl_msgs_generate_messages_eus.dir/clean
@@ -2038,7 +2040,7 @@ lesson2/CMakeFiles/lesson2_scan_to_pointcloud2_converter_node.dir/all: lesson2/C
 lesson2/CMakeFiles/lesson2_scan_to_pointcloud2_converter_node.dir/all: lesson2/CMakeFiles/tf_generate_messages_lisp.dir/all
 	$(MAKE) -f lesson2/CMakeFiles/lesson2_scan_to_pointcloud2_converter_node.dir/build.make lesson2/CMakeFiles/lesson2_scan_to_pointcloud2_converter_node.dir/depend
 	$(MAKE) -f lesson2/CMakeFiles/lesson2_scan_to_pointcloud2_converter_node.dir/build.make lesson2/CMakeFiles/lesson2_scan_to_pointcloud2_converter_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cwh/cwh_github/studyLidar/build/CMakeFiles --progress-num=16,17 "Built target lesson2_scan_to_pointcloud2_converter_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cwh/cwh_github/studyLidar/build/CMakeFiles --progress-num=18,19 "Built target lesson2_scan_to_pointcloud2_converter_node"
 .PHONY : lesson2/CMakeFiles/lesson2_scan_to_pointcloud2_converter_node.dir/all
 
 # Include target in all.
@@ -2225,6 +2227,120 @@ lesson2/CMakeFiles/bond_generate_messages_nodejs.dir/clean:
 
 # clean rule for target.
 clean: lesson2/CMakeFiles/bond_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir
+
+# All Build rule for target.
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/tf_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/tf_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/nodelet_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/tf_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/bond_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/nodelet_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/bond_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/nodelet_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/pcl_msgs_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/pcl_msgs_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/topic_tools_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/nodelet_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/topic_tools_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/pcl_ros_gencfg.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/bond_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/nodelet_topic_tools_gencfg.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/bond_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/tf_generate_messages_eus.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/nodelet_generate_messages_cpp.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/bond_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/std_srvs_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/topic_tools_generate_messages_py.dir/all
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all: lesson2/CMakeFiles/tf_generate_messages_lisp.dir/all
+	$(MAKE) -f lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/build.make lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/depend
+	$(MAKE) -f lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/build.make lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cwh/cwh_github/studyLidar/build/CMakeFiles --progress-num=16,17 "Built target lesson2_scan_match_icp_node"
+.PHONY : lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all
+
+# Include target in all.
+all: lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cwh/cwh_github/studyLidar/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cwh/cwh_github/studyLidar/build/CMakeFiles 0
+.PHONY : lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/rule
+
+# Convenience name for target.
+lesson2_scan_match_icp_node: lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/rule
+
+.PHONY : lesson2_scan_match_icp_node
+
+# clean rule for target.
+lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/clean:
+	$(MAKE) -f lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/build.make lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/clean
+.PHONY : lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/clean
+
+# clean rule for target.
+clean: lesson2/CMakeFiles/lesson2_scan_match_icp_node.dir/clean
 
 .PHONY : clean
 
@@ -3249,6 +3365,178 @@ lesson2/CMakeFiles/tf_generate_messages_lisp.dir/clean:
 
 # clean rule for target.
 clean: lesson2/CMakeFiles/tf_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory lesson3
+
+# Convenience name for "all" pass in the directory.
+lesson3/all: lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all
+lesson3/all: lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all
+
+.PHONY : lesson3/all
+
+# Convenience name for "clean" pass in the directory.
+lesson3/clean: lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/clean
+lesson3/clean: lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/clean
+
+.PHONY : lesson3/clean
+
+# Convenience name for "preinstall" pass in the directory.
+lesson3/preinstall:
+
+.PHONY : lesson3/preinstall
+
+#=============================================================================
+# Target rules for target lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir
+
+# All Build rule for target.
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+	$(MAKE) -f lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/build.make lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/depend
+	$(MAKE) -f lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/build.make lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cwh/cwh_github/studyLidar/build/CMakeFiles --progress-num=20,21 "Built target lesson3_plicp_odometry_node"
+.PHONY : lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all
+
+# Include target in all.
+all: lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cwh/cwh_github/studyLidar/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cwh/cwh_github/studyLidar/build/CMakeFiles 0
+.PHONY : lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/rule
+
+# Convenience name for target.
+lesson3_plicp_odometry_node: lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/rule
+
+.PHONY : lesson3_plicp_odometry_node
+
+# clean rule for target.
+lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/clean:
+	$(MAKE) -f lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/build.make lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/clean
+.PHONY : lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/clean
+
+# clean rule for target.
+clean: lesson3/CMakeFiles/lesson3_plicp_odometry_node.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir
+
+# All Build rule for target.
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson1/CMakeFiles/std_msgs_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_py.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all: lesson2/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+	$(MAKE) -f lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/build.make lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/depend
+	$(MAKE) -f lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/build.make lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cwh/cwh_github/studyLidar/build/CMakeFiles --progress-num=22,23 "Built target lesson3_scan_match_plicp_node"
+.PHONY : lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all
+
+# Include target in all.
+all: lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cwh/cwh_github/studyLidar/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cwh/cwh_github/studyLidar/build/CMakeFiles 0
+.PHONY : lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/rule
+
+# Convenience name for target.
+lesson3_scan_match_plicp_node: lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/rule
+
+.PHONY : lesson3_scan_match_plicp_node
+
+# clean rule for target.
+lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/clean:
+	$(MAKE) -f lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/build.make lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/clean
+.PHONY : lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/clean
+
+# clean rule for target.
+clean: lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/clean
 
 .PHONY : clean
 

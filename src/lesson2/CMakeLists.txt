@@ -35,3 +35,14 @@ add_dependencies(${PROJECT_NAME}_scan_to_pointcloud2_converter_node
 
 target_link_libraries(${PROJECT_NAME}_scan_to_pointcloud2_converter_node
   ${catkin_LIBRARIES})
+
+
+
+add_executable(${PROJECT_NAME}_scan_match_icp_node
+src/scan_match_icp.cc)
+
+add_dependencies(${PROJECT_NAME}_scan_match_icp_node
+${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
+target_link_libraries(${PROJECT_NAME}_scan_match_icp_node
+${catkin_LIBRARIES})

@@ -1,3 +1,5 @@
+
+
 <launch>
 
     <!-- bag的地址与名称 -->
@@ -7,13 +9,12 @@
     <param name="use_sim_time" value="true" />
 
     <!-- 启动节点 -->
-    <node name="lesson2_scan_to_pointcloud2_converter_node"
-        pkg="lesson2"
-        type="lesson2_scan_to_pointcloud2_converter_node" output="screen" />
+    <node name="lesson3_scan_match_plicp_node"
+        pkg="lesson3" type="lesson3_scan_match_plicp_node" output="screen" />
     
     <!-- launch rviz -->
-    <node name="rviz" pkg="rviz" type="rviz" required="false"
-        args="-d $(find lesson2)/launch/feature.rviz" />
+    <!-- <node name="rviz" pkg="rviz" type="rviz" required="false"
+        args="-d $(find lesson2)/launch/scan_match_icp.rviz" /> -->
 
     <!-- play bagfile -->
     <node name="playbag" pkg="rosbag" type="play"
