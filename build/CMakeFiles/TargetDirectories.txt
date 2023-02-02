@@ -140,3 +140,17 @@
 /home/cwh/cwh_github/studyLidar/build/lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir
 /home/cwh/cwh_github/studyLidar/build/lesson3/CMakeFiles/edit_cache.dir
 /home/cwh/cwh_github/studyLidar/build/lesson3/CMakeFiles/rebuild_cache.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/install/strip.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/edit_cache.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/install/local.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/test.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/install.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/lesson4_occupancy_grid_node.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/nav_msgs_generate_messages_cpp.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/rebuild_cache.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/_catkin_empty_exported_target.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/nav_msgs_generate_messages_eus.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/list_install_components.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/nav_msgs_generate_messages_nodejs.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/nav_msgs_generate_messages_lisp.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/nav_msgs_generate_messages_py.dir

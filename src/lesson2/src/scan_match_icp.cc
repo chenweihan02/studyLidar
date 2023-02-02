@@ -118,7 +118,7 @@ void ScanMatchICP::ConvertScan2PointCloud(const sensor_msgs::LaserScan::ConstPtr
  */
 void ScanMatchICP::ScanMatchWithICP(const sensor_msgs::LaserScan::ConstPtr &scan_msg)
 {
-    // ICP 输入数据,输出数据的设置,还可以进行参数配置,这里使用默认参宿
+    // ICP 输入数据,输出数据的设置,还可以进行参数配置,这里使用默认参数
     icp_.setInputSource(last_pointcloud_);
     icp_.setInputTarget(current_pointcloud_);
 

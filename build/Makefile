@@ -1376,6 +1376,97 @@ lesson3_scan_match_plicp_node/fast:
 	$(MAKE) -f lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/build.make lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/build
 .PHONY : lesson3_scan_match_plicp_node/fast
 
+#=============================================================================
+# Target rules for targets named lesson4_occupancy_grid_node
+
+# Build rule for target.
+lesson4_occupancy_grid_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson4_occupancy_grid_node
+.PHONY : lesson4_occupancy_grid_node
+
+# fast build rule for target.
+lesson4_occupancy_grid_node/fast:
+	$(MAKE) -f lesson4/CMakeFiles/lesson4_occupancy_grid_node.dir/build.make lesson4/CMakeFiles/lesson4_occupancy_grid_node.dir/build
+.PHONY : lesson4_occupancy_grid_node/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_cpp
+
+# Build rule for target.
+nav_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_cpp
+.PHONY : nav_msgs_generate_messages_cpp
+
+# fast build rule for target.
+nav_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f lesson4/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make lesson4/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+.PHONY : nav_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _catkin_empty_exported_target
+
+# Build rule for target.
+_catkin_empty_exported_target: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _catkin_empty_exported_target
+.PHONY : _catkin_empty_exported_target
+
+# fast build rule for target.
+_catkin_empty_exported_target/fast:
+	$(MAKE) -f lesson4/CMakeFiles/_catkin_empty_exported_target.dir/build.make lesson4/CMakeFiles/_catkin_empty_exported_target.dir/build
+.PHONY : _catkin_empty_exported_target/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_eus
+
+# Build rule for target.
+nav_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_eus
+.PHONY : nav_msgs_generate_messages_eus
+
+# fast build rule for target.
+nav_msgs_generate_messages_eus/fast:
+	$(MAKE) -f lesson4/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make lesson4/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+.PHONY : nav_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_nodejs
+
+# Build rule for target.
+nav_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_nodejs
+.PHONY : nav_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+nav_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f lesson4/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make lesson4/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+.PHONY : nav_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_lisp
+
+# Build rule for target.
+nav_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_lisp
+.PHONY : nav_msgs_generate_messages_lisp
+
+# fast build rule for target.
+nav_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f lesson4/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make lesson4/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+.PHONY : nav_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_py
+
+# Build rule for target.
+nav_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_py
+.PHONY : nav_msgs_generate_messages_py
+
+# fast build rule for target.
+nav_msgs_generate_messages_py/fast:
+	$(MAKE) -f lesson4/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make lesson4/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+.PHONY : nav_msgs_generate_messages_py/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1482,6 +1573,13 @@ help:
 	@echo "... tf_generate_messages_lisp"
 	@echo "... lesson3_plicp_odometry_node"
 	@echo "... lesson3_scan_match_plicp_node"
+	@echo "... lesson4_occupancy_grid_node"
+	@echo "... nav_msgs_generate_messages_cpp"
+	@echo "... _catkin_empty_exported_target"
+	@echo "... nav_msgs_generate_messages_eus"
+	@echo "... nav_msgs_generate_messages_nodejs"
+	@echo "... nav_msgs_generate_messages_lisp"
+	@echo "... nav_msgs_generate_messages_py"
 .PHONY : help
 
 

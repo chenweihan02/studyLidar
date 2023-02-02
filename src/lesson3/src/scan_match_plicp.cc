@@ -1,19 +1,3 @@
-/*
- * Copyright 2020 The Project Author: lixiang
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 #include "lesson3/scan_match_plicp.h"
 
 ScanMatchPLICP::ScanMatchPLICP()
@@ -271,6 +255,18 @@ void ScanMatchPLICP::ScanMatchWithPLICP(LDP &curr_ldp_scan, const ros::Time &tim
     // The new scan (currLDPScan) has a pose equal to the movement
     // of the laser in the laser frame since the last scan
     // The computed correction is then propagated using the tf machinery
+
+    prev_ldp_scan_->odometry[0] = 0.0;
+    prev_ldp_scan_->odometry[1] = 0.0;
+    prev_ldp_scan_->odometry[2] = 0.0;
+
+    prev_ldp_scan_->estimate[0] = 0.0;
+    prev_ldp_scan_->estimate[1] = 0.0;
+    prev_ldp_scan_->estimate[2] = 0.0;
+
+    prev_ldp_scan_->true_pose[0] = 0.0;
+    prev_ldp_scan_->true_pose[1] = 0.0;
+    prev_ldp_scan_->true_pose[2] = 0.0;
 
     input_.laser_ref = prev_ldp_scan_;
     input_.laser_sens = curr_ldp_scan;
