@@ -148,6 +148,7 @@
 /home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/lesson4_occupancy_grid_node.dir
 /home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/nav_msgs_generate_messages_cpp.dir
 /home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/rebuild_cache.dir
+/home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/lesson4_gmapping_node.dir
 /home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/_catkin_empty_exported_target.dir
 /home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/nav_msgs_generate_messages_eus.dir
 /home/cwh/cwh_github/studyLidar/build/lesson4/CMakeFiles/list_install_components.dir

@@ -55,3 +55,17 @@ ${catkin_EXPORTED_TARGETS}
 target_link_libraries(${PROJECT_NAME}_occupancy_grid_node
   ${catkin_LIBRARIES}
 )
+
+# GMapping map
+add_executable(${PROJECT_NAME}_gmapping_node
+  src/gmapping/gmapping.cc
+)
+
+add_dependencies(${PROJECT_NAME}_gmapping_node 
+${catkin_EXPORTED_TARGETS}
+)
+
+target_link_libraries(${PROJECT_NAME}_gmapping_node
+  ${catkin_LIBRARIES}
+  ${Boost_LIBRARIES}
+)

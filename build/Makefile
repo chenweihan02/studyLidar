@@ -1403,6 +1403,19 @@ nav_msgs_generate_messages_cpp/fast:
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named lesson4_gmapping_node
+
+# Build rule for target.
+lesson4_gmapping_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson4_gmapping_node
+.PHONY : lesson4_gmapping_node
+
+# fast build rule for target.
+lesson4_gmapping_node/fast:
+	$(MAKE) -f lesson4/CMakeFiles/lesson4_gmapping_node.dir/build.make lesson4/CMakeFiles/lesson4_gmapping_node.dir/build
+.PHONY : lesson4_gmapping_node/fast
+
+#=============================================================================
 # Target rules for targets named _catkin_empty_exported_target
 
 # Build rule for target.
@@ -1575,6 +1588,7 @@ help:
 	@echo "... lesson3_scan_match_plicp_node"
 	@echo "... lesson4_occupancy_grid_node"
 	@echo "... nav_msgs_generate_messages_cpp"
+	@echo "... lesson4_gmapping_node"
 	@echo "... _catkin_empty_exported_target"
 	@echo "... nav_msgs_generate_messages_eus"
 	@echo "... nav_msgs_generate_messages_nodejs"

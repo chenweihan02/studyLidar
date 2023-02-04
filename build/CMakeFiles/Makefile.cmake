@@ -599,6 +599,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "lesson3/CMakeFiles/lesson3_scan_match_plicp_node.dir/DependInfo.cmake"
   "lesson4/CMakeFiles/lesson4_occupancy_grid_node.dir/DependInfo.cmake"
   "lesson4/CMakeFiles/nav_msgs_generate_messages_cpp.dir/DependInfo.cmake"
+  "lesson4/CMakeFiles/lesson4_gmapping_node.dir/DependInfo.cmake"
   "lesson4/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   "lesson4/CMakeFiles/nav_msgs_generate_messages_eus.dir/DependInfo.cmake"
   "lesson4/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
